@@ -1,0 +1,77 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+@media (max-width: 700px) {
+    article {
+        width: 95%;
+        font-size: 1rem;
+    }
+    header div {
+        display: none;
+    }
+}
+
+.choice-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+.choice-grid div {
+    box-sizing: border-box;
+    width: 32.5%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.choice-grid div img {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+    .choice-grid div {
+        width: 49%;
+    }
+}
+
+.normal {
+background-color: #f4f4f4;
+}
+.checked {
+background-color: #cfe3ff;
+}
+.unchecked {
+opacity: 0.6;
+}
+
+#results {
+    margin: 20px 0px;
+    padding: 20px;
+}
+h3 {
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+#results p {
+    margin: 18px 0px;
+}
+#bottone {
+    background-color: #cecece;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bottone:hover {
+    background-color: #e0e0e0;
+}
+
+.quizStart {
+    display: none;
+}
+.quizOver {
+    display: inherit;
+}
